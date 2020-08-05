@@ -11,17 +11,17 @@ TO RUN PROGRAM:
 - Outcome of the challenge is logged in Terminal
 
 THINGS TO KNOW:
-- The program relies on a source input file
-- The default source file is `./input.txt` and that file will be used on default execution
-1. If you would like to execute the challenge with a different source an alternative file is provided (input2.txt), or you can make your own.
+1. The program relies on a source input file
+2. The default source file is `./input.txt` and that file will be used on default execution
+3. If you would like to execute the challenge with a different source an alternative file is provided (input2.txt), or you can make your own.
    - To change source input, edit line 4 in roombaChallenge.js to point to the newly desired file
-- The program DOES MAKE ASSUMPTIONS when dealing with source data, as stated below in the Challenge Briefing
-- If you provide your own input files, make sure they are formatted correctly or else the program may not work properly.
-      -- Only provide 2 numbers per row, with a space between them and nothing before/after them
-      -- The first row is always the room dimensions
-      -- The second row is always the starting position of the roomba
-      -- Every row following that (except the last row) is a location of dirt
-      -- The last row should be NSEW cardinal directions; there should be no row (even empty rows) below that one.
+4 The program DOES MAKE ASSUMPTIONS when dealing with source data, as stated below in the Challenge Briefing
+5 If you provide your own input files, make sure they are formatted correctly or else the program may not work properly.
+  - Only provide 2 numbers per row, with a space between them and nothing before/after them
+  - The first row is always the room dimensions
+  - The second row is always the starting position of the roomba
+  - Every row following that (except the last row) is a location of dirt
+  - The last row should be NSEW cardinal directions; there should be no row (even empty rows) below that one.
 
 CHALLENGE BRIEFING:
 * Data is provided via a text file (./input.txt in this case).
