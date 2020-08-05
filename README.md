@@ -30,7 +30,7 @@
 ###### CHALLENGE BRIEFING:
 * Data is provided via a text file (`./input.txt` in this case).
 * The room, roomba, and dirt are visualized through `(X,Y)` coordinates in the source file.
-* The first row of data is the `(X,Y`) dimensions of the room. `(0,0)` is the bottom left corner of the room, the first row of data is the rop right `(X,Y)` of the room.
+* The first row of data is the `(X,Y)` dimensions of the room. `(0,0)` is the bottom left corner of the room, the first row of data is the rop right `(X,Y)` of the room.
 * The second row of data is the starting `(X,Y)` location of the roomba within the room.
 * Every following row of data EXCEPT the final row is the `(X,Y)` coordinate of a piece of dirt in the room.
 * The final row of data is a string of letters representing cardinal directions: `North`, `South`, `East`, `West`.
