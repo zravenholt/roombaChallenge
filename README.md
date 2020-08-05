@@ -21,7 +21,7 @@
 4. The program ***DOES MAKE ASSUMPTIONS*** when dealing with source data, as stated below in the Challenge Briefing
 
 5. If you provide your own input files, make sure they are formatted correctly or else the program may not work properly.
-   - Only provide 2 numbers per row, with a space between them and nothing before/after them
+   - Only provide positive integers per row, with a space between them and nothing before/after them
    - The first row is always the room dimensions
    - The second row is always the starting position of the roomba
    - Every row following that (except the last row) is a location of dirt
