@@ -7,14 +7,14 @@ TO RUN PROGRAM:
 - Download repository
 - Open Terminal
 - CD to root of repository
-- Execute the command "node roombaChallenge.js" (This requires you to have Node installed.)
+- Execute the command `node roombaChallenge.js` (This requires you to have Node installed.)
 - Outcome of the challenge is logged in Terminal
 
 THINGS TO KNOW:
 - The program relies on a source input file
-- The default source file is ./input.txt and that file will be used on default execution
-- If you would like to execute the challenge with a different source an alternative file is provided (input2.txt), or you can make your own.
-      -- To change source input, edit line 4 in roombaChallenge.js to point to the newly desired file
+- The default source file is `./input.txt` and that file will be used on default execution
+1. If you would like to execute the challenge with a different source an alternative file is provided (input2.txt), or you can make your own.
+   - To change source input, edit line 4 in roombaChallenge.js to point to the newly desired file
 - The program DOES MAKE ASSUMPTIONS when dealing with source data, as stated below in the Challenge Briefing
 - If you provide your own input files, make sure they are formatted correctly or else the program may not work properly.
       -- Only provide 2 numbers per row, with a space between them and nothing before/after them
