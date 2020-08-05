@@ -1,16 +1,16 @@
 # roombaChallenge
 
 
-GOAL: Write a program that navigates an imaginary roomba through an equally imaginary room and cleans up imaginary dirt.
+## GOAL: Write a program that navigates an imaginary roomba through an equally imaginary room and cleans up imaginary dirt.
 
-TO RUN PROGRAM:
+###### TO RUN PROGRAM:
 - Download repository
 - Open Terminal
 - CD to root of repository
 - Execute the command `node roombaChallenge.js` (This requires you to have Node installed.)
 - Outcome of the challenge is logged in Terminal
 
-THINGS TO KNOW:
+###### THINGS TO KNOW:
 1. The program relies on a source input file
 2. The default source file is `./input.txt` and that file will be used on default execution
 3. If you would like to execute the challenge with a different source an alternative file is provided (input2.txt), or you can make your own.
@@ -23,7 +23,7 @@ THINGS TO KNOW:
    - Every row following that (except the last row) is a location of dirt
    - The last row should be NSEW cardinal directions; there should be no row (even empty rows) below that one.
 
-CHALLENGE BRIEFING:
+###### CHALLENGE BRIEFING:
 * Data is provided via a text file (./input.txt in this case).
 * The room, roomba, and dirt are visualized through (X,Y) coordinates in the source file.
 * The first row of data is the (X,Y) dimensions of the room. (0,0) is the bottom left corner of the room, the first row of data is the rop right (X,Y) of the room.
