@@ -4,7 +4,7 @@
 ## GOAL: Write a program that navigates an imaginary roomba through an equally imaginary room and cleans up imaginary dirt.
 
 ###### TO RUN PROGRAM:
-- Download repository
+- Download/unzip repository
 - Open Terminal
 - CD to root of repository
 - Execute the command `node roombaChallenge.js` (This requires you to have Node installed.)
